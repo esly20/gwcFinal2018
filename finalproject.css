@@ -1,5 +1,32 @@
-.header{
-font-family: ;
-font-size:  ;
 
+* {
+    box-sizing: border-box;
+}
+.header{
+  padding: 20px;  
+  text-align:center;
+  background-color:blue;
+  color: black;  
+}
+.header h1{
+  font-family: Libre bskerville ;
+  font-size:20px;
+}
+.navbar{
+  overflow:hidden;
+  background-color: ; 
+}
+.navbar a {
+  float:center;
+  display: block;
+  color:red;
+  width:50%;
+  text-align:center;
+  text-decoration:none;
+  padding:10px,15px;
+}
+.body1{ 
+  margin: 10px;
+  font-family:Libre bskerville;
+  
 }
