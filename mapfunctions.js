@@ -23,3 +23,10 @@ tillary.bindPopup("<b>Tillary Street Women's Center</b><br>Christy is dumb.");
 hra.bindPopup("<b>HRA Men's Shelter</b><br>>Christy is dumb.");
 lenox.bindPopup("<b>Lenox Hill Neighborhood House for Women</b><br>Christy is dumb.");
 lenox2.bindPopup("<b>Lenox Hill Neighborhood House Women’s Mental Health Shelter</b><br>Christy is dumb.");
+
+
+function onMapClick(e) {
+    alert("Select locations on the map to explore the city. Click and drag on the map to move around, and scroll in and out to zoom.");
+}
+
+mymap.on('click', onMapClick);
