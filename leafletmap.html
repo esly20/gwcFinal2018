@@ -15,19 +15,8 @@
   </head>
 
   <body>
- <div id="mapid"></div>
- <script>
- var mymap = L.map('mapid').setView([40.7128, -74], 13);
- var marker = L.marker([40.7128, -74]).addTo(mymap);
- </script>
-<script>
-marker.bindPopup("<b>Hello world!</b><br>Christy is dumb.").openPopup();
- L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 19,
-    id: 'mapbox.streets', //satellite for earth
-    accessToken: 'sk.eyJ1IjoiZXNsaWJlY2siLCJhIjoiY2prdjd1Y2NwMDBsMjNwcWs5MHViamlxOCJ9.7sLzqelXVl35Lomwxsro1g'
-}).addTo(mymap);
-</script>
+      <div id="mapid"></div>
+
+      <script src="mapfunctions.js"></script>
   </body>
 </html>
