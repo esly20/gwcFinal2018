@@ -2,8 +2,10 @@
 <html>
   <head>
     <link rel ="stylesheet" href="finalproject.css">
+    
+    <!-- The following should NOT be deleted. Needed for map -->
     <style>
-    #mapid {height: 400px; width: 800px;}
+    #mapid {height: 500px; width: 900px}
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
       integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -11,6 +13,7 @@
     <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
       integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
       crossorigin=""></script>
+    
     <link rel="stylesheet" href="finalproject.css">
   </head>
   <body>
@@ -34,19 +37,11 @@
     <a href=''>Learn More</a>&emsp;&emsp;&emsp;
   </div>
   <div id="mapid"></div>
-  <script>
-  var mymap = L.map('mapid').setView([40.7128, -74], 13);
-  var marker = L.marker([40.7128, -74]).addTo(mymap);
-  </script>
- <script>
- marker.bindPopup("<b>Hello world!</b><br>Christy is dumb.").openPopup();
-  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-     maxZoom: 19,
-     id: 'mapbox.streets', //satellite for earth
-     accessToken: 'sk.eyJ1IjoiZXNsaWJlY2siLCJhIjoiY2prdjd1Y2NwMDBsMjNwcWs5MHViamlxOCJ9.7sLzqelXVl35Lomwxsro1g'
- }).addTo(mymap);
-</script>
+
+  <!-- For Map -->
+  <div id="mapid"></div>
+  <script src="mapfunctions.js"></script>
+    
    </center>
   </body>
 </html>
