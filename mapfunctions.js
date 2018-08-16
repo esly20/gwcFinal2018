@@ -31,7 +31,7 @@ function add_marker(mymap){
 
 
 function onMapClick(e) {
-    alert("Select locations on the map to explore the city. Click and drag on the map to move around, and scroll in and out to zoom.");
+    alert("Select locations on the map to explore the city and watch the annimations. Click and drag on the map to move around, and scroll in and out to zoom.");
 }
 show_map(mymap)
 add_marker(mymap)
