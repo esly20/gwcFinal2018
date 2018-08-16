@@ -15,15 +15,63 @@
       crossorigin=""></script>
 
   </head>
-  <body>
+<body>
+    <div id="google_translate_element"></div>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+</script>
+<script src="element.js"></script>
     <div class='header'>
           <h1>Aid</h1>
         </div>
           <div class='navbar'>
           <a href='mainpage.html'>Home</a>
           <a href='getinvolved.html'>Get involved</a>
-          <a href='learnmore.html'>Learn More</a>
+          <a href='learnmore.html'>Aid</a>
      </div>
+     <div class='body'>
+       <div class='row'>
+         <div class='column'>
+           <center>
+           <h2>Homeless Shelters in NYC</h2>
+           <dl>
+             <h2><a href='http://nycrescue.org/'>New York City Rescue Mission</h2></a>
+             <p>Address:90 Lafayette St, New York, NY 10013<p>
+             <p>Open 24 Hours<p>
+             <h2><a href="http://www.projectrenewal.org/program-list/2013/3/6/fort-washington-mens-shelter">Fort Washington's Men Shelter</h2></a>
+             <p>Address:651 W 168th St, New York, NY 10032<p>
+             <h2><a href='https://ny.covenanthouse.org/'>Covenant House New York</h2></a>
+             <p>Address: 460 W 41st St, New York, NY 10036<p>
+             <p>Open 24 Hours</p>
+             <h2><a href='http://www.iclinc.net/search-results/tillary-street-womens-shelter/'>Tillary Street Women's Shelter</h2></a>
+             <p>Address:200 Tillary St, Brooklyn, NY 11201<p>
+             <h2><a href='http://www1.nyc.gov/' >HRA Men's Shelter</h2></a>
+             <p>Address:400 E 30th St, New York, NY 10016<p>
+             <p>Open 24 Hours<p>
+             <h2><a href='http://www.lenoxhill.org/wmhsparkavearmory/' >Lenox Hill Neighborhood House Women</h2></a>
+             <p>Address:643 Park Ave, New York, NY 10065<p>
+             <h2><a href='http://www.coalitionforthehomeless.org/'>Coalition for the Homeless</a></h2>
+             <p>Address: 129 Fulton St, New York, NY 10038<p>
+            </div>
+          </center>
+            <div class='column'>
+              <center>
+              <h2><a href='https://www1.nyc.gov/'>Family Shelters Bronx</a></h2>
+              <p> Address:151 E 151st St, Bronx, NY 10454<p>
+              <P>Open 24 Hours<p>
+              <h2>
+              </center>
+            </div>
+          </div>
+
+      </div>
+
+
 
      <!-- For Map -->
      <div id="mapid"></div>
