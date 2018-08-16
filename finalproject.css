@@ -70,3 +70,21 @@ body {
     display:table;
     clear:both;
   }
+  .column2{
+    float:left;
+    width:25%;
+    padding:5px;
+  }
+  .column3{
+    float:right;
+    width:25%;
+    padding:5px;
+  }
+  a:link {
+    text-decoration: none;
+    color:black;
+  }
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
