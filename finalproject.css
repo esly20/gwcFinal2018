@@ -11,22 +11,17 @@ body {
   font-family: Libre bskerville;
   margin: 20;
   background-color:		#c3d6d2 ;
-
 }
-
 .header {
     padding: 5px;
     background:	#5ea8a7;
     color: white;
-
 }
 .header h1{
   text-align: center;
   font-size: 30px;
   font-family: 'Teko', sans-serif;
 }
-
-
 .header1 {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -43,33 +38,24 @@ body {
   font-size:20px;
   line-height: 25px;
   border-radius: 4px;
-
 }
-
-
 .header1 a.logo {
   font-size: 25px;
   font-weight: bold;
   font-family: 'Teko', sans-serif;
 }
-
-
 .header1 a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .header1 a.active {
   background-color: grey;
   color: white;
 }
-
 .header1-right {
   float: right;
-
   font-size: 10px;
 }
-
 @media screen and (max-width: 500px) {
   .header1 a {
     float: none;
@@ -80,14 +66,10 @@ body {
     float: none;
   }
 }
-
 .navbar {
     overflow: hidden;
     background-color:	#f0eff0;
-
 }
-
-
 .navbar a{
     float: left;
     display: block;
@@ -102,8 +84,7 @@ body {
    color: white;
    background-color:#c3d6d2;
   }
-
-  .button {
+.button {
       background-color:#5ea8a7;
       border: none;
       color:white ;
@@ -129,41 +110,31 @@ body {
     width:15%;
     padding:5px;
   }
-
   .column3{
     float:right;
     width:15%;
     padding:5px;
   }
-
   a:link {
     color: black;
     text-decoration: none;
   }
-
-
   a:visited {
     color: black;
     text-decoration: none;
   }
-
   a:hover {
     color: white;
     text-decoration: none;
   }
-
   a:active {
     color: black;
     text-decoration: none;
   }
-
 .cite {
       overflow: hidden;
       background-color:	#f0eff0;
-
   }
-
-
   .cite a{
       float: left;
 
