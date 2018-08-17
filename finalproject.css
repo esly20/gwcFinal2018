@@ -13,16 +13,6 @@ margin: 20px;
 background-color:		#c3d6d2 ;
 
 }
-.header {
-  padding: 5px;
-  background:	#5ea8a7;
-  color: white;
-}
-.header h1{
-text-align: center;
-font-size: 30px;
-font-family: 'Teko', sans-serif;
-}
 .header1 {
 overflow: hidden;
 background-color: #f1f1f1;
