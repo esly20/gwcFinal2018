@@ -1,8 +1,10 @@
+
 <!DOCTYPE>
 <html>
   <head>
     <link rel ="stylesheet" href="finalproject.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The following should NOT be deleted. Needed for map -->
     <style>
     #mapid {height: 500px; width: 900px}
@@ -26,22 +28,22 @@
     }
 </script>
 <script src="element.js"></script>
-    <div class='header'>
-          <h1>Aid</h1>
-        </div>
-          <div class='navbar'>
-          <a href='mainpage.html'>Home</a>
-          <a href='getinvolved.html'>Get involved</a>
-          <a href='learnmore.html'>Learn More</a>
-     </div>
+
+<div class='header1'>
+  <a href='mainpage.html' style="font-size:30px;"><strong>StreetView</strong> </a>
+  <div class='header1-right'>
+    <a href='mainpage.html'>Home</a>
+    <a href='getinvolved.html'>Get Involved</a>
+    <a href='aid.html' class="active">Find Aid</a>
+    <a href='learnmore.html'>Learn More</a>
+  </div>
+</div>
+
+
+
      <center><h2>Homeless Shelters and Food Banks in NYC</h2></center>
      <div class='body'>
-       <!-- For Map -->
-       <center>
-       <div id="mapid"></div>
-       <script src="aidmapjs.js"></script>
 
-     </center>
        <div class='row'>
          <div class='column2'>
            <center>
@@ -86,5 +88,13 @@
           </div>
 
       </div>
+
+
+    <center>
+     <!-- For Map -->
+     <div id="mapid"></div>
+     <script src="mapfunctions.js"></script>
+    </center>
+
     </body>
 </html>
