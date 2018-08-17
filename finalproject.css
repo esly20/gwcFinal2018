@@ -156,3 +156,25 @@ body {
     color: black;
     text-decoration: none;
   }
+
+.cite {
+      overflow: hidden;
+      background-color:	#f0eff0;
+
+  }
+
+
+  .cite a{
+      float: left;
+
+      color: black;
+
+      padding: 8px;
+      text-decoration:none ;
+      width:33.33%;
+      font-size: 14px;
+    }
+    .cite a:hover{
+     color: white;
+     background-color:#c3d6d2;
+    }
