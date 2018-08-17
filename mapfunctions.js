@@ -5,7 +5,7 @@ function show_map(mymap){
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 19,
-      id: 'mapbox.streets', //satellite for earth
+      id: 'mapbox.satellite', //satellite for earth or streets
       accessToken: 'sk.eyJ1IjoiZXNsaWJlY2siLCJhIjoiY2prdjd1Y2NwMDBsMjNwcWs5MHViamlxOCJ9.7sLzqelXVl35Lomwxsro1g'
   }).addTo(mymap);
 }
@@ -22,7 +22,7 @@ function add_marker(mymap){
   var lenox2 = L.marker([40.767233, -73.965504]).addTo(mymap);
   nycrm.bindPopup("<a href='http://nycrescue.org/' target='_blank'>New York City Rescue Mission</a>");
   fortwash.bindPopup("<a href='http://www.projectrenewal.org/program-list/2013/3/6/fort-washington-mens-shelter' target='_blank'>Fort Washington Men's Shelter</a>");
-  covenant.bindPopup("<a href='ny.covenanthouse.org' target='blank'> Covenant House New York</a>");
+  covenant.bindPopup("<a href='https://ny.covenanthouse.org/' target='blank'> Covenant House New York</a>");
   tillary.bindPopup("<b>Tillary Street Women's Center</b>");
   hra.bindPopup("<b>HRA Men's Shelter</b>");
   lenox.bindPopup("<a href='http://www.lenoxhill.org/center-lenox-hill-neighborhood-house' target='blank'>Lenox Hill Neighborhood House for Women</a>");
