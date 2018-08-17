@@ -44,7 +44,6 @@ function add_marker(mymap){
 }
 
 
-
 function onMapClick() {
     alert("Click and drag on the map to move around, and scroll in and out to zoom. Select locations to get directions.");
 }
