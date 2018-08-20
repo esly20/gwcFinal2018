@@ -5,12 +5,12 @@
 body {
   font-family: Libre bskerville;
   margin: 0px;
-  background-color:		#c3d6d2 ;
+  background-color:		 #ddd;
 }
 .body{
 font-family: Libre bskerville;
 margin: 20px;
-background-color:		#c3d6d2 ;
+background-color:		 #ddd; ;
 }
 .header1 {
 overflow: hidden;
@@ -130,7 +130,7 @@ a:active {
 
 .cite {
     overflow: hidden;
-    background-color:#c3d6d2	;
+    background-color: #ddd;	;
 
 }
 .cite a{
