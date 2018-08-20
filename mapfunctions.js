@@ -19,14 +19,12 @@ function add_marker(mymap){
   var tillary = L.marker([40.695731, -73.982145]).addTo(mymap);
   var hra = L.marker([40.740655, -73.974382]).addTo(mymap);
   var lenox = L.marker([40.767076, -73.957739]).addTo(mymap);
-  var lenox2 = L.marker([40.767233, -73.965504]).addTo(mymap);
   nycrm.bindPopup("<a href='http://nycrescue.org/' target='_blank'>New York City Rescue Mission</a>");
   fortwash.bindPopup("<a href='http://www.projectrenewal.org/program-list/2013/3/6/fort-washington-mens-shelter' target='_blank'>Fort Washington Men's Shelter</a>");
-  covenant.bindPopup("<a href='covannimation.html' target='blank'> Watch Annimation</a><br>60% of homeless women and 41% of homeless men have at least one child, but only 39% of women and 3% of men lived with any children. Many families are forced to choose between finding a bed at a shelter and their family being seperated. In many cases the children are separated from their parents and put in various shelters.");
+  covenant.bindPopup("<a href='http://localhost:8000/gwcFinal2018-master/covannimation.html' target='blank'> Watch Annimation</a><br>60% of homeless women and 41% of homeless men have at least one child, but only 39% of women and 3% of men lived with any children. Many families are forced to choose between finding a bed at a shelter and their family being seperated. In many cases the children are separated from their parents and put in various shelters.");
   tillary.bindPopup("<b>Tillary Street Women's Center</b>");
   hra.bindPopup("<b>HRA Men's Shelter</b>");
   lenox.bindPopup("<a href='http://www.lenoxhill.org/center-lenox-hill-neighborhood-house' target='blank'>Lenox Hill Neighborhood House for Women</a>");
-  lenox2.bindPopup("<a href='http://www.lenoxhill.org/wmhsparkavearmory' target='blank'>Lenox Hill Women's Mental Health Shelter</a>");
 }
 
 
