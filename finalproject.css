@@ -3,14 +3,16 @@
 }
 
 body {
-  font-family: Libre bskerville;
+font-family: "Times New Roman", Times, serif;
   margin: 0px;
-  background-color:		 #ddd;
+  background-color:	#ddd;
+  line-height: 1.5
 }
 .body{
-font-family: Libre bskerville;
+font-family: "Times New Roman", Times, serif;
 margin: 20px;
-background-color:		 #ddd; ;
+background-color: #ddd; ;
+line-height: 1.5
 }
 .header1 {
 overflow: hidden;
