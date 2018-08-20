@@ -132,7 +132,7 @@ a:active {
 
 .cite {
     overflow: hidden;
-    background-color: #ddd;	;
+    background-color: #ddd;	
 
 }
 .cite a{
@@ -145,5 +145,5 @@ a:active {
   }
   .cite a:hover{
    color: white;
-   background-color:#c3d6d2;
+   background-color:#ddd;
   }
