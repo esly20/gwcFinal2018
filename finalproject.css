@@ -97,7 +97,7 @@ font-size: 10px;
 }
 
   @media screen and (max-width:800px) {
-    .column2, .column3, .column4{
+    .column2, .column3, .column4, .column{
       width:100%;
     }
   }
