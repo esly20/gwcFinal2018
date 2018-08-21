@@ -1,5 +1,5 @@
 // This is for all the map functions
-var mymap = L.map('mapid').setView([40.720530, -73.997338], 12);
+var mymap = L.map('mapid').setView([20, -50], 2);
 
 function show_map(mymap){
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -28,6 +28,7 @@ function add_marker(mymap){
 
 
 function onMapClick(e) {
+    mymap.flyTo([40.720530, -73.997338], 12)
     alert("Select locations on the map to explore the city and watch the annimations. Click and drag on the map to move around, and scroll in and out to zoom.");
 }
 show_map(mymap)
