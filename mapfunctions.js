@@ -10,6 +10,7 @@ function show_map(mymap){
   }).addTo(mymap);
 }
 
+
 function add_marker(mymap){
   var nycrm = L.marker([40.717542, -74.001615]).addTo(mymap);
   var fortwash = L.marker([40.841451, -73.940417]).addTo(mymap);
